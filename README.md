@@ -9,4 +9,4 @@ Thanks to everyone who contributed to this collection of recommendations and gui
 
 ### Citation
 If you use the resources or code from this repository, please cite it as follows:<br />
-Figalova, N. (2024). ECG and EDA in HuFa Driving Simulator: Recommendations & Resources. GitHub. https://github.com/yourusername/HuFa_Ulm_ECGandEDA
+Figalova, N. (2024). ECG and EDA in HuFa Driving Simulator: Recommendations & Resources. GitHub. https://github.com/yourusername/HuFa_Ulm_ECG_EDA
