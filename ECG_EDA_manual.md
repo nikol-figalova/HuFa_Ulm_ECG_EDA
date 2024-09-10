@@ -46,7 +46,7 @@ To synchronize data with the driving simulator, you can use the TCP trigger rece
    <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/99.png" width="50%">
 5. Create a new workspace  
    <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/4.png" width="50%">
-6. Choose the sampling rate and the accelerometer from the amplifier, if you wish.
+6. Choose the sampling rate and the accelerometer from the amplifier, if you wish.<img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/5.png" width="50%">  
 7. If you are using only ECG and EDA electrodes, indicate "0" for "EEG only", and check "Use sensor and triger extension". To "Auxiliary", write the number of AUX channels you will plug into the trigger extension (2 for both EDA and ECG, 1 if only one channel will be used). Change the names, scale, and units of the recorded signals. For EDA, insert "µS" as Diff. unit and "25" as Gradient. For ECG, insert "µV" as Diff. unit and "0.1" as Gradient. <br /> <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/worskpace_setup_values.png" width="80%">
 8. Click next, keep the settings as it is. Do not apply any filters, always save raw data.
 9. Click next; no segmentation/averaging during recording.  
