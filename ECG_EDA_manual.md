@@ -46,21 +46,19 @@ To synchronize data with the driving simulator, you can use the TCP trigger rece
    <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/99.png" width="50%">
 5. Create a new workspace  
    <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/4.png" width="50%">
-6. Add the electrodes.   
-   <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/eegx.png" width="50%">
-7. Choose the sampling rate and the accelerometer from the amplifier, if you wish.
-8. If you are using only ECG and EDA electrodes, indicate "0" for "EEG only", and check "Use sensor and triger extension". To "Auxiliary", write the number of AUX channels you will plug into the trigger extension (2 for both EDA and ECG, 1 if only one channel will be used). Change the names, scale, and units of the recorded signals. For EDA, insert "µS" as Diff. unit and "25" as Gradient. For ECG, insert "µV" as Diff. unit and "0.1" as Gradient. <br /> <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/worskpace_setup_values.png" width="30%">
-9. Click next, keep the settings as it is. Do not apply any filters, always save raw data.
-10. Click next; no segmentation/averaging during recording.  
+6. Choose the sampling rate and the accelerometer from the amplifier, if you wish.
+7. If you are using only ECG and EDA electrodes, indicate "0" for "EEG only", and check "Use sensor and triger extension". To "Auxiliary", write the number of AUX channels you will plug into the trigger extension (2 for both EDA and ECG, 1 if only one channel will be used). Change the names, scale, and units of the recorded signals. For EDA, insert "µS" as Diff. unit and "25" as Gradient. For ECG, insert "µV" as Diff. unit and "0.1" as Gradient. <br /> <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/worskpace_setup_values.png" width="80%">
+8. Click next, keep the settings as it is. Do not apply any filters, always save raw data.
+9. Click next; no segmentation/averaging during recording.  
    <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/8.png" width="50%">
-11. Save your workspace.  
+10. Save your workspace.  
    <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/9.png" width="50%">  
    Once your workspace is saved, you can see its name in the bottom right corner.  
    <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/10.png" width="50%">
-12. To see the signal, click the button with the symbol of the eye.
-13. To start recording the data, press the icon with the green triangle. Once the data starts saving, you will see a red icon under your signal, which says "SAVING HDD".  
+11. To see the signal, click the button with the symbol of the eye.
+12. To start recording the data, press the icon with the green triangle. Once the data starts saving, you will see a red icon under your signal, which says "SAVING HDD".  
     <img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/12.png" width="50%">
-14. To stop the recording, press the icon with the red square.
+13. To stop the recording, press the icon with the red square.
 
 # 3. Equipment Set Up 
 
