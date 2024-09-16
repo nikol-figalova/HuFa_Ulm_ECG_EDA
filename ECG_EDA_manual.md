@@ -63,9 +63,49 @@ To synchronize data with the driving simulator, you can use the TCP trigger rece
 # 3. Equipment Set Up 
 
 ## 3.1. ECG Set Up 
+There are three electrodes to record the ECG signal: positive, negative, and ground. The positive electrode should be attached to the left shoulder, negative to the left shoulder, and ground to the right hip, on the soft tissue next to the tip of the pelvic bone. 
+
+Placing the electrodes on the shoulders instead on the muscle under the shoulder should help reduce muscular noise originating from the driving activity. The electrodes on the shoulders should be placed as on this picture:
+<img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/ecg_electrodeposition.jpeg" width="50%">
+
+The reference electrode should be placed approximately here: 
+<img src="https://github.com/nikol-figalova/HuFa_Ulm_EEG/blob/main/images/pelvis.png" width="50%">
+
+When setting up EEG electrodes, it is good to have two researchers in the room (to ensure the participant is comfortable and safe, as the setup requires relatively close and intimate contact). For the same reason, it is good when a researcher of the same sex places the electrodes as the participant. 
+
+You currently have two options for ECG setup in the lab: reusable or pre-filled electrodes. 
+
+### 3.1.1. Reusable Electrodes 
+These electrodes are manually filled with abrasive gel. For this purpose, you will need a syringe, abrasive conductive gel, adhesive rings, and a plaster. 
+
+1. Clean the skin with disinfectant.
+2. Glue the adhesive ring on the electrode.
+3. Attach the electrodes to their positions. It's good to have the electrodes marked so they don't get misplaced (simply add a sticker "left" and "right" or something similar).
+4. Fill in the electrode with the abrasive gel.
+5. Cover the electrode with a plaster to avoid the clothes getting dirty.
+6. Connect the electrodes to the trigger extension box and check the signal quality.
+7. If the quality is poor, try pressing on the electrodes, scratching a little on the skin with a Q-tip, or adding more gel. If the signal remains extremely noisy, try editing your workspace and adding a 50 Hz notch filter (for viewing only; save raw data).
+8. When the recording is finished, carefully take off the electrodes. Always hold the plastic head of the electrode when takig off the adhesives - NEVER pull on the cables!
+9. Cover the BIP2AUX adapter in a towel.
+10. Wash the electrodes thoroughly but gently with a tootbrush. You want to avoid any remaining gel left - when it dries, your next participant will have a lot of noise in the data.
+11. Leave the electrodes dry hanging.
+12. When needed, you can also use hair dryer to dry the electrodes. However, ALWAYS use only cold air - heat will damage the electrodes. 
+
+### 3.1.2. Pre-Filled Electrodes 
+1. Clean the skin with disinfectant.
+2. Attach the single-use electrode caps to the electrodes.
+3. Remove the plastic film.
+4. Attach the electrodes to their position.
+5. When the recording is finished, carefully take off the electrodes. Always hold the plastic head of the electrode when taking off the electrode cap, NEVER pull on the cables!
 
 ## 3.2. EDA Set Up 
+The EDA can be recorded from two locations: the index finger or the inside of the foot. 
 
+### 3.2.1. Index Finger
+This position is less intimidating to set up, however, can be "in the way" when recording the data. Think about seco
+
+
+### 3.2.2.
 
 
 Tips and Good Practices 
